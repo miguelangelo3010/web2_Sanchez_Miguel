@@ -167,31 +167,6 @@ nav{
     height: 100%;
 }
 
-.about_main{
-    padding-top: 80px;
-    display: grid;
-    width: 90%;
-    margin: 0 auto;
-    gap: 1em;
-    overflow: hidden;
-    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
-}
-
-.about_icons{
-    display: grid;
-    gap: 1em;
-    justify-items: center;
-    width: 260;
-    overflow: hidden;
-    margin: 0 auto;
-}
-
-.about_icon{
-    width:40px;
-}
-
-/*Price*/
-
 .educacion{
     text-align: center;
     height: 100vh;
@@ -216,11 +191,11 @@ nav{
   height: 40%;
   border: 3px solid rgb(68, 0, 255);
   clip-path: polygon(
-    0% 0%,   /* esquina arriba izquierda */
-    80% 0%,  /* borde arriba */
-    100% 50%,/* punta flecha */
-    80% 100%,/* borde abajo */
-    0% 100%  /* esquina abajo izquierda */
+    0% 0%,   
+    80% 0%, 
+    100% 50%,
+    80% 100%,
+    0% 100%  
   );
     
 }
@@ -244,8 +219,6 @@ nav{
     height: 50px;
 }
 
-
-/*knowledge*/
 
 .habilidades{
     height: 100vh;
@@ -290,7 +263,6 @@ nav{
     font-size: 18px;
 }
 
-/*Footer*/
 
 footer{
         background-image: linear-gradient(180deg, #ffffff 0%, #1c04b3db 100%);
