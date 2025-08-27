@@ -1,14 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Personal</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/resposive.css">
 </head>
+
 <body>
-    <h1>Bienvenido a mi sitio WEB</h1>
-    <p>Este es mi sitio WEB</p>
-    
+    <header>
+        <nav>
+            <h2 class="nombre">Web Personal</h2>
+            <ul>
+                <li>
+                    <a href="#sobre_mí" class="nav_links">Sobre mí</a>
+                </li>
+                <li>
+                    <a href="#educacion" class="nav_links">Educación</a>
+                </li>
+                <li>
+                    <a href="#habilidades" class="nav_links">Habilidades</a>
+                </li>
+                <li>
+                    <a href="#contacto" class="nav_links">Contacto</a>
+                </li>
+
+                <img src="" alt="" class="nav_close">
+            </ul>
+
+            <div class="menu">
+                <img src="./img/menu.png" alt="" class="nav_img">
+            </div>
+        </nav>
+
+        <section class="portada">
+            <h1 class="titulo">MIGUEL ANGEL SANCHEZ PASOS</h1>
+            <br>
+            <p class="parrafo">Soy Miguel Ángel Sánchez, un joven que busca crecer personal y profesionalmente a través
+                de proyectos que aporten soluciones reales a la comunidad.
+                <br>Te invito a conocer un poco más acerca de mi</p>
+            <a href="#contacto" class="cta">Contáctame</a>
+        </section>
+    </header>
+
+    <main>
+        <section id="sobre_mí" class="quien_soy">
+            <h2 class="subtitulo">Sobre mí</h2>
+            <div class="text">
+                <div class="foto">
+                    <img class="foto2" src="./img/foto2.jpeg" alt="">
+
+                </div>
+                <article class="quienSoyYo">
+                    <p class="parrafoSoy">Soy una persona comprometida con el aprendizaje y el crecimiento constante,
+                        tanto en el ámbito profesional como en el personal. Me caracterizo por mantener una actitud
+                        colaboradora y responsable, con la disposición de aportar ideas y soluciones en equipo. Me
+                        interesa de manera especial la programación y las herramientas tecnológicas, áreas en las que me
+                        esfuerzo por fortalecer mis conocimientos y habilidades. La honestidad, la paciencia y la
+                        amabilidad son principios que guían mi forma de actuar y relacionarme, procurando siempre un
+                        desarrollo integral que combine lo técnico con lo humano.</p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <section id="educacion" class="educacion">
+            <h2 class="subtituloEstudios">Trayectoria Educativa</h2>
+
+            <div class="estudios">
+                <div class="estudio">
+                    <p class="nombre_Estudio">
+                        <b>Bachiller Tecnico en Sistemas</b>
+                    </p>
+
+                    <div class="descripcion">
+                        <img class="logoEst" src="./img/logoSena2.png" alt="">
+                        <p>Bachiller Técnico en Sistemas en el Colegio Nuestra Señora del Perpetuo Socorro, La Montañita
+                            – Caquetá, en articulación con el SENA.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="estudio">
+                    <p class="nombre_Estudio">
+                        <b>Tecnología en Analisis y Desarrollo de Software</b>
+                    </p>
+
+                    <div class="descripcion">
+                        <img class="logoEst" src="./img/logoSena.png" alt="">
+                        <p>Actualmente desarrollo un Tecnólogo en Análisis y Desarrollo de Software en el Sistema
+                            Nacional de Aprendizaje SENA</p>
+                    </div>
+                </div>
+
+                <div class="estudio">
+                    <p class="nombre_Estudio">
+                        <b>Ingeniería de Sistemas</b>
+                    </p>
+
+                    <div class="descripcion">
+                        <img class="logoEst" src="./img/logoUniamazonia.png" alt="">
+                        <p>Actualmente curso la carrera de Ingeniería de Sistemas en la Universidad de la Amazonía.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="habilidades">
+            <div class="habilidadesTecnicas">
+                <h1 class="TituloHabilidadesTecnicas">HABILIDADES TECNICAS</h1>
+                <p class="habilidad"> Programación y desarrollo de software.</p>
+                <p class="habilidad"> Administración y manejo de bases de datos.</p>
+                <p class="habilidad"> Conocimientos en redes y seguridad informática.</p>
+                <p class="habilidad"> Gestión de proyectos tecnológicos.</p>
+                <p class="habilidad"> Aplicación de metodologías ágiles.</p>
+            </div>
+            <div class="habilidadesBlandas">
+                <h1 class="TituloHabilidadesBlandas">HABILIDADES BLANDAS</h1>
+                <p class="habilidad"> Resolución de problemas y pensamiento crítico.</p>
+                <p class="habilidad"> Trabajo en equipo y comunicación efectiva.</p>
+                <p class="habilidad"> Responsabilidad y ética profesional.</p>
+                <p class="habilidad"> Adaptabilidad y aprendizaje constante</p>
+            </div>
+
+        </section>
+
+        <footer id="contacto">
+            <h2 class="footer_titulo">Contáctame</h2>
+            <section class="footer_redes">
+                <div class="whatsapp">
+                    <img class="logoRedes" src="./img/logoWapp.png" alt="WhatsApp">
+                    <p class="red">3026787135</p>
+                    <a href="https://wa.me/573026787135?text=Hola quiero mas información" target="_blank">
+                        <button class="btn-wapp">Enviar mensaje</button>
+                    </a>
+
+                </div>
+                <div class="facebook">
+                    <img class="logoRedes" src="./img/logoFacebook.png" alt="Facebook">
+                    <p class="red">Miguel Sanchez</p>
+                    <a href="https://www.facebook.com/share/1EJK8gjB1V/" target="_blank">
+                        <button class="btn-face">Ver Perfil</button>
+                    </a>
+
+                </div>
+                <div class="correo">
+                    <img class="logoRedes" src="./img/logoGmal.png" alt="Gmail">
+                    <p class="red">sanchezmiguel26102002@gmail.com</p>
+                    <a href="mailto:sanchezmiguel26102002@gmail.com?subject=Consulta&body=Hola%20Miguel,%20quiero%20más%20información."
+                        target="_blank">
+                        <button class="btn-gmail">Enviar Correo</button>
+                    </a>
+                </div>
+            </section>
+            <h3 class="footer_autor">Autor - Miguel Angel Sanchez Pasos</h3>
+        </footer>
+    </main>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>

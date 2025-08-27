@@ -1,0 +1,15 @@
+@media (max-width: 576px) {
+      nav ul {
+    display: none; 
+  }
+
+  .menu {
+    display: block; 
+  }
+  .titulo{
+    font-size: 2rem;
+  }
+  .parrafo{
+    font-size: 1rem;
+  }
+}
